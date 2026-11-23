@@ -345,7 +345,7 @@ namespace InternetSpeedTest
 
         private void MainMenubtn_Click(object sender, EventArgs e)
         {
-            InternetSpeedTestForm.ActiveForm.Hide();
+            this.Hide();
             MainMenu mainMenu = new MainMenu();
             mainMenu.Show();
         }

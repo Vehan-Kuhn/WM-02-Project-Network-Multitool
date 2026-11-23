@@ -19,14 +19,14 @@ namespace InternetSpeedTest
 
         private void InternetSpeedTestbtn_Click(object sender, EventArgs e)
         {
-            MainMenu.ActiveForm.Hide();
+            this.Hide();
             InternetSpeedTestForm internetSpeedTestForm = new InternetSpeedTestForm();
             internetSpeedTestForm.Show();
         }
 
         private void NetworkScannerbtn_Click(object sender, EventArgs e)
         {
-            MainMenu.ActiveForm.Hide();
+            this.Hide();
             NetworkScannerForm networkScannerForm = new NetworkScannerForm();
             networkScannerForm.Show();
         }
